@@ -1,0 +1,7 @@
+<div class="fichaUsuario">
+    <form [formGroup]="formUser" (submit)="submit()">
+        Nombre: <input type="text" formControlName="nombre">
+        Imagen: <input type="text" formControlName="imagen">
+        <button type="submit">Crear</button>
+    </form>
+</div>
